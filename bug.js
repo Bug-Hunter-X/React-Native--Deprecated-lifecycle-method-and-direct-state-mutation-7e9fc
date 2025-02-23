@@ -1,0 +1,1 @@
+This React Native code uses the deprecated `componentWillMount` lifecycle method.  It also attempts to directly mutate the component's state using `this.state.isLoading = false;`, which can lead to unpredictable behavior and rendering issues.  The `setState` method should always be used for updating state.
